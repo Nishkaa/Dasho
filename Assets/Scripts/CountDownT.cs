@@ -40,7 +40,7 @@ public class CountDownT : MonoBehaviour
         currentTime -= 1 * Time.deltaTime;
         countdownText.text = currentTime.ToString("0");
 
-        if (coinT.coin >= 60)
+        if (coinT.coin >= 100)
         {
             PauseGame();
             CompleteLevel();
