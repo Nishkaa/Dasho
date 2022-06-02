@@ -10,6 +10,8 @@ public class LevelGenerator : MonoBehaviour
     public GameObject Coin;
     public GameObject Background;
     public GameObject Razor;
+    public GameObject HexagonPlate;
+    public GameObject MovingDeadlySpike;
 
     private Vector3 SpawnTile;
     public float SpawnTime = 0.6f;
@@ -57,6 +59,13 @@ public class LevelGenerator : MonoBehaviour
         RazorSpike.transform.localScale = new Vector3(10, 1, 1);
         distance += 15;
 
+        var Hexagon = Instantiate(HexagonPlate, new Vector2(distance, -2), Quaternion.identity);
+        Hexagon.transform.localScale = new Vector3(10, 1, 1);
+        distance += 15;
+
+        var MovingSpike = Instantiate(MovingDeadlySpike, new Vector2(distance, -2), Quaternion.identity);
+        MovingSpike.transform.localScale = new Vector3(10, 1, 1);
+        distance += 15;
         //Destroy after 60 seconds
         Destroy(groundClone, 60);
         Destroy(coins, 60);

@@ -2846,6 +2846,8 @@ MonoBehaviour:
   Coin: {fileID: 8117113323956884725, guid: 278d9877315323046bf1d2704b1f8cef, type: 3}
   Background: {fileID: 1078185581587387330, guid: 235184e1726f8524480e37a1a5dfd9bd, type: 3}
   Razor: {fileID: 7478935209145822227, guid: 585c21eabf7384a46b68b4d697b1d4fc, type: 3}
+  HexagonPlate: {fileID: 4477372124781426678, guid: f06128167402f3a409775e0eb1cf00af, type: 3}
+  MovingDeadlySpike: {fileID: 6017595106101918387, guid: a395bdb7910a68d4cbbb571835fd1cef, type: 3}
   SpawnTime: 0.3
   bgSpawnTime: 0.1
   distance: 15

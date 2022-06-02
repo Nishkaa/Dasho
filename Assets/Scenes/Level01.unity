@@ -384,7 +384,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 168339245}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: 0, y: 5.58, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 260853338}
@@ -762,7 +762,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 324132413}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalPosition: {x: 0, y: 5.58, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 177984229}
@@ -1230,7 +1230,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: 0, y: 5.58, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1855,6 +1855,8 @@ MonoBehaviour:
   Coin: {fileID: 8117113323956884725, guid: 278d9877315323046bf1d2704b1f8cef, type: 3}
   Background: {fileID: 1078185581587387330, guid: 235184e1726f8524480e37a1a5dfd9bd, type: 3}
   Razor: {fileID: 339793375423564024, guid: 7f0fc7154a10fc1478c13403ebd9299f, type: 3}
+  HexagonPlate: {fileID: 321992774441058285, guid: 9d964350706e79741a687bf3875a68ad, type: 3}
+  MovingDeadlySpike: {fileID: 3285953234842746222, guid: 036a5e2e896873343818d1be39f921f0, type: 3}
   SpawnTime: 0.3
   bgSpawnTime: 0.1
   distance: 15
